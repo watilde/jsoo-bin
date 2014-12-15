@@ -1,0 +1,27 @@
+{
+  "name": "jsoo-bin",
+  "version": "0.0.1",
+  "description": "[WIP]Binary wrapper for js_of_ocaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/jsoo-bin.git"
+  },
+  "keywords": [
+    "ocaml",
+    "js_of_ocaml"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/jsoo-bin/issues"
+  },
+  "homepage": "https://github.com/watilde/jsoo-bin",
+  "dependencies": {
+    "bin-wrapper": "^2.1.1",
+    "logalot": "^2.1.0"
+  }
+}
