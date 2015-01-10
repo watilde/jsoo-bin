@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jsoo-bin by watilde</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jsoo-bin</h1>
+        <p>Binary wrapper for js_of_ocaml</p>
+
+        <p class="view"><a href="https://github.com/watilde/jsoo-bin">View the Project on GitHub <small>watilde/jsoo-bin</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/watilde/jsoo-bin/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/watilde/jsoo-bin/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/watilde/jsoo-bin">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="jsoo-bin" class="anchor" href="#jsoo-bin" aria-hidden="true"><span class="octicon octicon-link"></span></a>jsoo-bin</h1>
+
+<p>Binary wrapper for <a href="https://github.com/ocsigen/js_of_ocaml">js_of_ocaml</a></p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting started</h2>
+
+<h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h3>
+
+<pre><code>$ npm install -g jsoo-bin
+</code></pre>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<pre><code>$ jsoo -h Usage: jsoo &lt;ml files&gt; -o &lt;out file name&gt;
+</code></pre>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
+
+<pre><code>$ cat hello.ml
+print_endline "Hello world!";;
+
+$ jsoo hello.ml -o hello.js
+$ ls
+hello.cmi hello.cmo hello.js  hello.ml
+
+$ node hello.js
+Hello world!
+
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/watilde">watilde</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-35821550-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
