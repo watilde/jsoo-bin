@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "jsoo": "bin/jsoo.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/watilde/jsoo-bin.git"
@@ -22,6 +25,8 @@
   "homepage": "https://github.com/watilde/jsoo-bin",
   "dependencies": {
     "bin-wrapper": "^2.1.1",
-    "logalot": "^2.1.0"
+    "logalot": "^2.1.0",
+    "minimist": "^1.1.0",
+    "temp-write": "^1.1.0"
   }
 }
