@@ -18,7 +18,7 @@ Usage:
 
 Examples:
     jsoo foo.ml bar.ml baz.ml
-    jsoo foo.ml bar.ml baz.m -o out.js
+    jsoo foo.ml bar.ml baz.ml -o out.js
 
 Options:
     -h, --help    Print this message
