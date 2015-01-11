@@ -1,6 +1,6 @@
 {
   "name": "jsoo-bin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Binary wrapper for js_of_ocaml",
   "main": "index.js",
   "scripts": {
