@@ -37,5 +37,4 @@ hello.cmi hello.cmo hello.js  hello.ml
 
 $ node hello.js
 Hello world!
-
 ```
