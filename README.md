@@ -14,10 +14,11 @@ $ npm install -g jsoo-bin
 ```
 $ jsoo -h
 Usage:
-    jsoo [ml files] -o [out file name]
+    jsoo [options] [ml files]
 
 Examples:
-    jsoo hello.ml -o hello.js
+    jsoo foo.ml bar.ml baz.ml
+    jsoo foo.ml bar.ml baz.m -o out.js
 
 Options:
     -h, --help    Print this message
