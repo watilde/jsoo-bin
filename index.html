@@ -45,7 +45,18 @@
 <h3>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
-<pre><code>$ jsoo -h Usage: jsoo &lt;ml files&gt; -o &lt;out file name&gt;
+<pre><code>$ jsoo -h
+Usage:
+    jsoo [options] [ml files]
+
+Examples:
+    jsoo foo.ml bar.ml baz.ml
+    jsoo foo.ml bar.ml baz.m -o out.js
+
+Options:
+    -h, --help    Print this message
+    -o, --out     Output to single file
+    -v, --version Print jsoo-bin version
 </code></pre>
 
 <h3>
