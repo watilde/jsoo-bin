@@ -12,7 +12,17 @@ $ npm install -g jsoo-bin
 
 ### Usage
 ```
-$ jsoo -h Usage: jsoo <ml files> -o <out file name>
+$ jsoo -h
+Usage:
+    jsoo [ml files] -o [out file name]
+
+Examples:
+    jsoo hello.ml -o hello.js
+
+Options:
+    -h, --help    Print this message
+    -o, --out     Output to single file
+    -v, --version Print jsoo-bin version
 ```
 
 ### Example
